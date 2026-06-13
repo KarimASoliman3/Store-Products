@@ -3,6 +3,38 @@
 Modern, responsive React Single Page Application that fetches and displays products from:
 https://fakestoreapi.com/products
 
+## 📁 Complete File Structure
+
+```
+Store-Products/
+├── src/
+│   ├── services/
+│   │   └── api.ts                    # API layer
+│   ├── hooks/
+│   │   └── useProducts.ts            # Data fetching hook
+│   ├── utils/
+│   │   └── filterUtils.ts            # Filtering logic
+│   ├── components/
+│   │   ├── SearchBar.tsx
+│   │   ├── FilterDropdown.tsx
+│   │   ├── ProductCard.tsx
+│   │   ├── ProductGrid.tsx
+│   │   └── LoadingSpinner.tsx
+│   ├── types/
+│   │   └── index.ts                  # TypeScript interfaces
+│   ├── pages/
+│   │   └── Home.tsx                  # Main page
+│   ├── App.tsx
+│   └── main.tsx
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── tailwind.config.js
+```
+
+---
+
 ## Features
 
 - API integration with loading + error states
