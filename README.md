@@ -19,6 +19,7 @@ https://fakestoreapi.com/products
 - React + TypeScript
 - Vite
 - Tailwind CSS
+- Axios
 
 ## Setup
 
